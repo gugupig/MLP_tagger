@@ -19,7 +19,7 @@ examples_train.pkl
 W2V: convert word into word vectors, you don't need to run it either
 model_10.bin:word embedding model trained on our corpus by using libray Gensin.Word2Vec (no pre-trained models are used)
 
-Mini_batch GD_1ST and CLR_2ND are our two trained model who yield 
+Mini_batch GD_1ST and CLR_2ND are two trained model who yield 
 the best result, you can load them by using Data_Prep.NN_load(path)
 they are basically two objects of NN_Vec class, please read the comments in NN_Vectorization to know there attributes and methods
 
